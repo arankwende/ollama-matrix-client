@@ -1,0 +1,12 @@
+MATRIX:
+    HOMESERVER: homeserver.host.com
+    USER: 'MATRIXUSER'
+    PASSWORD: 'MATRIXPASSWORD' 
+    ROOMS:        #The list of rooms your bot will be in.
+              - ROOM: "#test:homeserver.host.com"
+              - ROOM: "#ROOM2:homeserver.host.com"
+    ID: "UNIQUEDEVICEID"
+OLLAMA:
+    HOST: 192.168.XXX.XXX # the host for the Ollama API.
+    MODEL: 'llama3:latest' #the model you want to use.
+    PROMPT: 'Please respond to the following query.' #This is where your prompt goes.
